@@ -1,6 +1,6 @@
 from func_uteels import represition
 from funck_represent import borrow_book ,return_book ,  display_books , search_book , add_book ,get_books_by_author , get_available_books
-choises={1,2,3,4,5,6,7,8}
+
 
 books = [    {        "id": 1,        "name": "Harry Potter",        "author": "J.K. Rowling",        "year": 1997,        "available": True    },    {        "id": 2,        "name": "The Hobbit",        "author": "J.R.R. Tolkien",        "year": 1937,        "available": True    },    {        "id": 3,        "name": "Clean Code",        "author": "Robert Martin",        "year": 2008,        "available": False    },    {        "id": 4,        "name": "Atomic Habits",        "author": "James Clear",        "year": 2018,        "available": True    },    {        "id": 5,        "name": "The Pragmatic Programmer",        "author": "David Thomas",        "year": 1999,        "available": False    }]
 
@@ -20,6 +20,7 @@ while True:
 8. Exit
 
 Choose an option:""")
+    choises={1,2,3,4,5,6,7,8}
     try:
         choise = int(input("chosse  from 1 - 0"))
     except ValueError:
